@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="system" method="upgrade">
+   <name>Joomla Shortcut</name>
+   <version>1.0.0</version>
+   <creationDate>12 Jun 2012</creationDate>
+   <author>Ronildo Costa</author>
+   <authorEmail>ronildo@gmail.com</authorEmail>
+   <authorUrl>http://www.ronildo.com.br/blog</authorUrl>
+   <copyright>Copyright © 2012 - All rights reserved.</copyright>
+   <license>GNU General Public License v2.0</license>
+   <description><![CDATA[A plugin that enables Joomla shortcut, if you are familiar with Gmail shortcuts, you will be very comfortable with this plugin.]]></description>
+	<files>
+		<filename plugin="shortcut">shortcut.php</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>js/index.html</filename>
+		<filename>css/shortcuts.css</filename>
+		<filename>js/acunote-shortcuts.js</filename>
+		<filename>js/shortcuts.js</filename>
+	</files>
+  <languages folder="language">
+    <!-- Any language files included with the module -->
+        <language tag="en-GB">en-GB/en-GB.plg_system_shortcut.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_system_shortcut.sys.ini</language>
+        <language tag="pt-BR">pt-BR/pt-BR.plg_system_shortcut.ini</language>
+        <language tag="pt-BR">pt-BR/pt-BR.plg_system_shortcut.sys.ini</language>
+    </languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+  			<field name="spacer" type="spacer" class="text"
+					label="When plugin is enabled, press h to see a list with all keyboard shortcut possible."
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

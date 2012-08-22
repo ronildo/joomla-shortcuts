@@ -1,0 +1,80 @@
+#shortcuts-list{
+  background-color:#222;
+  color:#FFF;
+  left:4%;
+  display:none;
+  overflow:hidden;
+  top:5%;
+  width:92%;
+  z-index:1002;
+  position:fixed;
+  border-radius:10px 10px 10px 10px;
+  opacity:0.85;
+}
+
+.inside-sc{
+  padding:20px 10px 30px 10px;
+  overflow: hidden;
+}
+
+.title-page-sc{
+  border-bottom:1px solid #FFF;
+  overflow:hidden;
+}
+
+.title-page-sc h3{
+  font-size:18px;
+  font-weight:bold;
+  margin:0 0 5px 0;
+  float:left;
+}
+
+.title-page-sc #sc-close-button{
+  float:right;
+  display:block;
+  color: #DDDD00;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size:16px;
+  font-weight:bold;
+}
+
+#shortcuts-items .left-c{
+  float: left;
+  width: 49%;
+}
+
+#shortcuts-items .right-c{
+  float: right;
+  width: 49%;
+}
+
+#shortcuts-items h5{
+  color:#DDDD00;
+  font-size:16px;
+  margin: 10px 0 3px 112px;
+}
+
+#shortcuts-items p{
+  margin: 0;
+}
+
+#shortcuts-items span.letter{
+  color:#DDDD00;
+  font-size:14px;
+  font-family: "courier new",monospace;
+  font-weight:bold;
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+#shortcuts-items span.letter span{
+  color: #FFF;
+  font-size: 11px;
+}
+
+#shortcuts-items span.sc-description{
+  font-size:14px;
+}
+
